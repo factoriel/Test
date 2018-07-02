@@ -1,0 +1,22 @@
+$ git config --global user.name "factoriel"
+
+$ git config --global user.email vfactoriel@gmail.com
+
+$ git clone http://github.com/...
+
+$ git add test.txt
+
+$ git status
+
+$ git commit -m "my first commit" test.txt
+
+$ git push origin master
+
+for the second time when you want to add the same file you need to commit again for example if file
+is modified then you want to push again you need to follow these instructions
+
+$ git commit -m "second commit" test.txt
+
+$ git status (the status has been changed from modified file to new file)
+
+$ git push origin master
